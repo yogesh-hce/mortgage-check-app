@@ -39,8 +39,9 @@ also by java -jar target/mortgage-service-1.0.0.jar
 ### **Run Tests**
 mvn clean test
 
+API examples 
 
-POST /api/mortgage-check
+POST http://localhost:8080/api/mortgage-check
 
 Request Example:
 
@@ -50,3 +51,5 @@ Request Example:
   "loanValue": 200000,
   "homeValue": 250000
 }
+
+GET : http://localhost:8080/api/interest-rates
